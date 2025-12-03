@@ -18,7 +18,7 @@ public class SchoolDto {
     @Size(max=255)
     private String name;
 
-    private String addre;
+    private String address;
 
 
 }
