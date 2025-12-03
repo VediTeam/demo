@@ -20,5 +20,5 @@ public class SchoolDto {
 
     private String address;
 
-
+ private String age;
 }
