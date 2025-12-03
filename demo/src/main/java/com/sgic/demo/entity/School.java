@@ -22,6 +22,9 @@ public class School {
     @Column(name="Address" , length =100)
     private String Address;
 
+    @Column(name = "year")
+    private long periods;
+
     @OneToMany(mappedBy = "school",cascade = CascadeType.ALL)
     private List <Student> students;
 
