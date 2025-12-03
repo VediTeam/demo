@@ -18,6 +18,7 @@ public class SchoolDto {
     @Size(max=255)
     private String name;
 
+    @NotEmpty
     private String address;
 
 
