@@ -29,7 +29,7 @@ public class SchoolController {
             return ResponseEntity.status(HttpStatus.CREATED)
                     .body(new ResponseWrapper<>(
                             HttpStatus.CREATED.value(),
-                            "School created successfully",
+                            "created successfully",
                             createdSchool));
         } else {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -59,7 +59,7 @@ public class SchoolController {
         if (school != null) {
             return ResponseEntity.ok(new ResponseWrapper<>(
                     HttpStatus.OK.value(),
-                    "School found successfully",
+                    " found successfully",
                     school
             ));
         } else {
